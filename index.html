@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <script src="/assets/js/jquery-2.2.3.min.js"></script>
+        <script> 
+        $(function(){
+            $("#container").load("/_includes/container.html");
+            $("#head").load("/_includes/head.html");
+            $("#header").load("/_includes/header.html");
+            $("#banner").load("/_includes/banner.html");
+            $("#sidebar").load("/_includes/sidebar.html");
+            $("#footer").load("/_includes/footer.html");
+        });
+        </script> 
+    </head>
+    
+    <body>
+        <div id="home"  class="turnero-container-home">
+            <div id="head"></div>
+            <div id="header" class="turnero-navbar"></div>
+            <div id="banner" class="turnero-banner"></div>
+            <div id="sidebar" class="turnero-sidebar"></div>
+            <div id="footer" class="turnero-footer"></div>        
+        </div>
+        <footer>
+            <div id="js"></div>
+        </footer>
+    </body>
+</html>
