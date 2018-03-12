@@ -1,10 +1,8 @@
 # ANDES | Turnero
 Layout y estilos de interfaz
 
-Corre sobre servidor local de python
+Para correr sobre servidor local python
 
-En Windows
-python-m http.server {port}
+En Windows > python-m http.server {port}
 
-En IOS
-python -m SimpleHTTPServer
+En IOS > python -m SimpleHTTPServer {port}
